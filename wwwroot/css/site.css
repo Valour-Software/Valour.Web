@@ -1,0 +1,254 @@
+:root {
+  --primary-color: #040d14;
+  --secondary-color: #aaaaaa;
+  --font-color: #ffffff;
+  --bg-color: #040d14;
+  --heading-color: #040d14;
+  --link-color: #00aaff;
+  --border-color: #303030;
+  --alt-border-color: #666666;
+  --input-color: #000000;
+  --comment-hue: rgba(0, 0, 0, 0.02);
+  --main-1: #040d14;
+  --main-2: #0b151d;
+  --main-3: #121e27;
+  --main-4: #192630;
+  --main-5: #212f3a;
+  --v-purple: #bf06fd;
+  --v-blue: #0c06fd;
+  --v-cyan: #00faff;
+}
+
+* {
+  font-family: Ubuntu, sans-serif;
+}
+
+.container {
+  padding: 0 !important;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--main-1);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+
+.footer {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-wrap {
+  padding-bottom: 41px;
+}
+
+html {
+  font-size: calc(15px + 0.390625vw);
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+.title-gradient {
+  background: #00FFEE;
+  background: linear-gradient(to right, #00FFEE 20%, #FF00EE 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.title-gradient-reverse {
+  background: #00FFEE;
+  background: linear-gradient(to left, #00FFEE 20%, #FF00EE 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.title-gradient-blue {
+  background: #00FFEE;
+  background: linear-gradient(to right, #00FFEE 20%, #FF00EE 200%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.content-spacer {
+  height: 5em;
+  width: 100%;
+}
+
+.content-spacer.shadow {
+  box-shadow: 0 0 10px black;
+}
+
+body {
+  height: auto;
+  min-height: 800px;
+  background-color: var(--main-1);
+  color: var(--font-color);
+}
+
+hr {
+  border-color: black;
+}
+
+/* Will set background to main color */
+.bg-main {
+  background: var(--main-1);
+}
+
+/* Will set text to main font color */
+.text-main {
+  color: var(--font-color);
+}
+
+.navbar {
+  border: none !important;
+}
+
+.v-navbar {
+  background-color: var(--main-1);
+  color: white;
+  border-color: var(--main-2);
+}
+
+.v-nav-link {
+  color: var(--font-color) !important;
+  cursor: pointer;
+}
+
+.v-nav-link:hover {
+  opacity: 0.8;
+  color: var(--v-cyan) !important;
+}
+
+.v-nav-link:active {
+  opacity: 1;
+  color: var(--v-cyan) !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.v-btn-wrapper {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #00FFEE -31%, #FF00EE 192%);
+}
+
+.v-button {
+  color: #fff;
+  border: none;
+  background-color: #111122;
+  transition: all 0.3s ease-in-out;
+}
+
+.v-button a {
+  color: #111122;
+  font-weight: 700;
+  text-decoration: none;
+  background: linear-gradient(to right, #00FFEE -31%, #FF00EE 192%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.v-button:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.v-button:hover a {
+  color: #111122;
+  -webkit-text-fill-color: #111122;
+}
+
+.v-button.danger {
+  color: rgb(255, 0, 0);
+  border-color: rgb(255, 0, 0);
+}
+
+.v-button.danger:hover {
+  color: white;
+  border-color: white;
+}
+
+.navbar-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-login {
+  float: none;
+  margin-left: 0;
+}
+
+@media (min-width: 576px) {
+  .navbar-login {
+    float: right;
+    margin-left: auto;
+  }
+}
+
+.form-control {
+  margin-top: 5px;
+  background-color: var(--main-1);
+  border-color: var(--main-5);
+  color: var(--font-color);
+}
+
+.form-control:disabled {
+  background-color: var(--border-color);
+  border-color: var(--alt-border-color);
+  color: var(--font-color);
+}
+
+.form-select {
+  background-color: var(--main-1);
+  border-color: var(--main-5);
+  color: var(--font-color);
+}
+
+.v-link {
+  color: var(--v-cyan);
+  text-decoration: none;
+}

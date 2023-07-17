@@ -1,0 +1,94 @@
+﻿.hero-row {
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Jpeg loads first on slow connections */
+    background-image: url("../media/Spookvooper-tall.svg"),url("../media/Spookvooper-tall-comp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: min(900px, 80vh);
+    width: 100vw;
+}
+
+.hero-content {
+    max-width: 1200px;
+}
+
+.subtitle-text {
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.subtitle-text.purple {
+    color: var(--v-purple);
+}
+
+.subtitle-text.cyan {
+    color: var(--v-cyan);
+}
+
+.img-lg {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svg-shadow {
+    filter: drop-shadow(0px 0px 20px rgb(0 0 0 / 1));
+}
+
+.image-text {
+    font-weight: 800;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);
+}
+
+.image-text.blue {
+    background: #00FFFF;
+    background: linear-gradient(to right, #00FFEE 35%, #FF00EE 110%)
+}
+
+.image-text.purple {
+    background: #FF00FF;
+    background: linear-gradient(to right, #00FFEE -63%, #FF00EE 89%);
+}
+
+.dark-row {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    padding: 2em;
+    width: 100vw;
+}
+
+.section-image {
+    max-width: 100%;
+}
+
+.overview-row {
+    width: calc(100vw + 1px);
+    margin-top: -5em;
+    background-color: var(--main-3);
+    border-radius: 0 2em 2em 0;
+}
+
+.platform-image {
+    max-width: 100%;
+    margin-top: -5%;
+    position: relative;
+    box-shadow: 0 0 60px black;
+}
+
+.perf-image {
+    max-width: 100%;
+    border-radius: 2em;
+    transform: skewY(6deg);
+}
+
+.open-source-row {
+    width: calc(100vw + 1px);
+    margin-top: -5em;
+    background-color: var(--main-3);
+    border-radius: 2em 0 0 2em;
+}
