@@ -28,4 +28,4 @@ COPY --from=build-env /app/out .
 EXPOSE 80
 
 # Start the app
-ENTRYPOINT ["dotnet", "Valour.Server.dll"]
+ENTRYPOINT ["dotnet", "Valour.Web.dll"]
