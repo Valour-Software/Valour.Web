@@ -2,22 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>Valour: Built for Communities</title>
     <meta name="robots" content="index, follow">
-    <link rel="icon" href="favicon.ico" />
-    <meta name="description" content="Join the movement for a more flexible, transparent, and open platform made by communities for communities.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="keywords" content="Gaming Community, Chat Platform, Content Creators, Live Streaming, Multiplayer Gaming, Social Gaming, Esports Chat, Open Source, Privacy, Private Chat">
-    <meta name="og:site_name" content="valour.gg">
-    <meta name="og:title" content="Valour: Built for Communities">
-    <meta name="twitter:title" content="Valour: Built for Communities">
-    <meta name="og:description" content="Join the movement for a more flexible, transparent, and open platform made by communities for communities.">
-    <meta name="twitter:description" content="Join the movement for a more flexible, transparent, and open platform made by communities for communities.">
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://valour.gg/media/twitter-card.png">
-    <meta name="twitter:image:alt" content="The Valour logo">
+    <link rel="icon" href="favicon.ico"/>
+    
+    @{
+        /* Title */
+        ViewData.TryGetValue("Title", out var title);
+        title ??= "Valour: Built for Communities";
+        <title>@title</title>
+        <meta name="og:title" content="@title">
+        <meta name="twitter:title" content="@title">
+
+
+        /* Description */
+        ViewData.TryGetValue("Description", out var description);
+        description ??= "Join the movement for a more flexible, transparent, and open platform made by communities for communities.";
+        <meta name="description" content="@description">
+        <meta name="og:description" content="@description">
+        <meta name="twitter:description" content="@description">
+
+        /* Keywords */
+        ViewData.TryGetValue("Keywords", out var keywords);
+        keywords ??= "Gaming Community, Chat Platform, Content Creators, Live Streaming, Multiplayer Gaming, Social Gaming, Esports Chat, Open Source, Privacy, Private Chat";
+        <meta name="keywords" content="@keywords">
+        
+        /* Card Type */
+        ViewData.TryGetValue("CardType", out var cardType);
+        cardType ??= "summary_large_image";
+        <meta name="twitter:card" content="@cardType"/>
+        
+        /* Image */
+        ViewData.TryGetValue("Image", out var image);
+        image ??= "https://valour.gg/media/twitter-card.png";
+        <meta name="og:image" content="@image">
+        <meta name="twitter:image" content="@image">
+        
+        /* Image Alt */
+        ViewData.TryGetValue("ImageAlt", out var imageAlt);
+        imageAlt ??= "The Valour logo";
+        <meta name="twitter:image:alt" content="@imageAlt">
+    }
+    
     <meta name="twitter:site" content="@@valourapp">
+    <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#00FAFF">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
