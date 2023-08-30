@@ -18,6 +18,12 @@ public class HomeController : Controller
         return View();
     }
     
+    [HttpGet("/userCount")]
+    public IActionResult UserCount()
+    {
+        return View();
+    }
+    
     [HttpGet("/faq")]
     public IActionResult Faq()
     {
