@@ -1,0 +1,114 @@
+@{
+    ViewData["Title"] = "Valour - Web3";
+    ViewData["Description"] = "Valour is using Web3 to power communities with immersive economies and marketplace integrations.";
+    ViewData["Keywords"] = "Web3, Blockchain, NFT, Marketplace, Valour, Gaming, Community, Chat, Platform, Open Source, Privacy, Private Chat";
+    ViewData["main-class"] = "";
+}
+
+<div class="root-wrapper">
+    <div class="nebula-background"></div>
+    <div class="stars" id="stars"></div>
+    <div class="content-wrapper">
+        <h2>Valour is</h2>
+        <h1>Going Web3</h1>
+        <div class="coin-wrapper">
+            <div id="coin-container"></div>
+        </div>
+        <div class="countdown-wrapper">
+            <div class="time-box">
+                <h2 class="time-left days"></h2>
+                <h4>Days</h4>
+            </div>
+            <div class="time-box">
+                <h2 class="time-left hours"></h2>
+                <h4>Hours</h4>
+            </div>
+            <div class="time-box">
+                <h2 class="time-left minutes"></h2>
+                <h4>Minutes</h4>
+            </div>
+            <div class="time-box">
+                <h2 class="time-left seconds"></h2>
+                <h4>Seconds</h4>
+            </div>
+        </div>
+        <div class="text-center mt-4 fit-text m-auto">
+            <h5>...until Valour is using Web3 to power communities with immersive economies and marketplace integrations.</h5>
+        </div>
+        <div class="shade-bar">
+            <h2>Our Web3 Integrations</h2>
+            <br />
+            <br />
+            
+            <div class="container">
+                <div class="row justify-content-center flex-wrap">
+                    <div class="col-6 p-4 text-section">
+                        <h3>Community Currencies</h3>
+                        <i class="bi bi-cash-coin section-icon"></i>
+                        <p>Valour Credits will be integrated into the Community Currency system, allowing community members to buy perks, run bots, and run their own integrations with the token.</p>
+                        <p>Communities will set an exchange rate from <span style="color: var(--v-cyan)">$VALOUR</span> to their community currencies, allowing them to fund in-platform subscriptions and even generate revenue with their community.</p>
+                    </div>
+                    <div class="col-6 p-4 text-section">
+                        <h3>Items & Marketplace</h3>
+                        <i class="bi bi-cart-dash-fill section-icon"></i>
+                        <p>Communities will be able to mint items which will be stored on-chain, allowing for users to display them on profiles or trade them for <span style="color: var(--v-cyan)">$VALOUR</span> or community currencies.</p>
+                        <p>Integrations with games and other platforms will allow an in-depth market economy to grow, opening the doors to experiences never seen before on a community platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <h2>The Project</h2>
+            <br />
+            <br />
+            <img class="scroll-image" src="media/images/v03591.webp" alt="Platform Image">
+            <br/>
+            <br/>
+            <h3>Advanced windowing. Built in charts. A dedicated team.</h3>
+            <h4>And that's just where it starts...</h4>
+            
+            <section>
+                <ul>
+                    <li>
+                        <img class="scroll-image" src="media/images/profile-card.webp" alt="Platform Image">
+                        <br/>
+                        <h3>Express yourself in style.</h3>
+                    </li>
+                    <li>
+                        <img class="scroll-image" src="media/images/mobile.webp" alt="Platform Image">
+                        <br/>
+                        <h3>Bring Valour anywhere.</h3>
+                    </li>
+                    <li>
+                        <img class="scroll-image" src="media/images/themes.webp" alt="Platform Image">
+                        <br/>
+                        <h3>Create, Share, and Add Themes</h3>
+                    </li>
+                </ul>
+            </section>
+            <div class="mt-5">
+                <h2>Join the Movement</h2>
+                <br />
+                <br />
+                <h1 id="member-count"></h1>
+                <h3>Members</h3>
+            </div>
+            <div class="progress"></div>
+        </div>
+        
+        <div style="height: 50vh"></div>
+    </div>
+</div>
+
+
+@section Scripts
+{
+    <script src="https://cdn.jsdelivr.net/npm/motion@11.11.13/dist/motion.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/coin-renderer.js"></script>
+    <script src="js/stars.js"></script>
+    <script src="js/platform-image.js"></script>
+    <script src="js/number-anim.js"></script>
+}
