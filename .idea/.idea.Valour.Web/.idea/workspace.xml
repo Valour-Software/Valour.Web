@@ -9,26 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce9c2bb-df5b-47f2-9774-aca12a2382a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/Home/web3.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Home/web3.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/js/coin-renderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/js/number-anim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/js/platform-image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/js/stars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/js/timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/media/images/mobile.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/media/images/profile-card.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/media/images/themes.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/media/images/v03591.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/media/valour-credit-norm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valour.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Valour.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +138,7 @@
       <workItem from="1689625393720" duration="6080000" />
       <workItem from="1689644883626" duration="1766000" />
       <workItem from="1732247267308" duration="7458000" />
-      <workItem from="1732289383420" duration="38592000" />
+      <workItem from="1732289383420" duration="39136000" />
     </task>
     <servers />
   </component>
