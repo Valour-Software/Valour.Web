@@ -5,6 +5,10 @@ body, html {
     overflow: hidden;
 }
 
+.row {
+    max-width: unset !important;
+}
+
 .root-wrapper {
     position: relative;
 }
@@ -72,7 +76,7 @@ body, html {
 
 .text-section {
     max-width: min(650px, 70vw);
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .section-icon {
