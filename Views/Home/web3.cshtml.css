@@ -104,6 +104,21 @@ ul {
     top: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    section {
+        height: unset !important;
+    }
+
+    ul {
+        flex-wrap: wrap;
+    }
+    
+    li {
+        width: 90% !important;
+        height: 70vh !important;
+    }
+}
+
 li {
     display: flex;
     width: 100vw;
