@@ -1,5 +1,5 @@
 // Set the target date and time
-const targetDate = new Date("2024-12-06T11:00:00Z");
+const targetDate = new Date("2024-12-13T11:00:00Z");
 
 // Function to update the countdown
 function updateCountdown() {
