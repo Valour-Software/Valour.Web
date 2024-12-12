@@ -2,7 +2,8 @@
     "name": "Valour Credits",
     "symbol": "VLRC",
     "description": "Valour Credits are the official currency of Valour, an advanced community-building platform. VLRC supports the development of the platform, is used for airdrops and community events, and powers the future of community platforms.",
-    "image": "https://valour.gg/token/vlrc_icon.webp",
+    "image": "https://valour.gg/token/vlrc_icon.png",
+    "external_url": "https://valour.gg/",
     "extensions": {
         "website": "https://valour.gg/",
         "twitter": "https://x.com/ValourApp",
