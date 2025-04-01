@@ -1,63 +1,178 @@
-﻿<div class='index-back'>
-    <div class="container">
-        <div class="row hero-row">
-            <div class="hero-content col-12 col-md-8 px-4 mx-auto">
-                <div class="text-center mt-4">
-                    <h1 class="title-gradient">Community first.</h1>
-                    <div class="subtitle-text">
-                        <h5>Join the movement for a more flexible, transparent, and open platform made by communities for communities.</h5>
-                        <div class="text-center mt-4">
-                            <div onclick="window.location = 'https://app.valour.gg'" class="v-btn-wrapper  ">
-                                <div class="btn btn-lg v-button">
-                                    <a href="https://app.valour.gg">Open the App</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row overview-row">
-            <div class="col-12 col-lg-6">
-                <img class="platform-image" alt="The Valour platform" src="media/screencaps/platform-2.webp"/>
-            </div>
-            <div class="col-12 col-lg-6">
-                <h3 class="title-gradient m-4">Powerful Features</h3>
-                <p class="p-4">Take advantage of advanced features made capable by our unique tech stack. In-app window management allows you to chat in multiple channels at once, even across communities. Our economy and item systems allow you to reward your community members, show off your accomplishments, and be immersed like never before.</p>
-            </div>
-        </div>
-        <div class="content-spacer"></div>
-        <div class="row dark-row mx-auto justify-content-center align-items-center">
-            <div class="col-12 col-lg-6">
-                <h3 class="title-gradient-reverse m-4">Next-gen Performance</h3>
-                <p class="p-4">Other apps stick their code into Electron, sacrificing your computer's resources. Valour is built on Blazor, allowing us to take advantage of WebAssembly and related technologies, giving us a massive edge.</p>
-                <p class="px-4">We use a custom node-based backend system that allows large communities to get the performance they need - without disabling core features.</p>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4">
-                <img alt="Browser performance" class="perf-image pt-4" src="media/screencaps/performance.webp"/>
-            </div>
-        </div>
-        <div class="content-spacer"></div>
-        <div class="content-spacer"></div>
-        <div class="row open-source-row">
-            <div class="col-12 col-lg-6">
-                <h3 class="title-gradient-blue m-4">Open Source, Privacy Focused</h3>
-                <p class="p-4">We're an open book. Built by volunteers with no corporate funding, Valour will continue to build the features you need without compromising your values or experience. We pledge to uphold your privacy, build amazing communities, and to be transparent as an organization.</p>
-                <p class="p-4">Valour will never sell your data, and holds your privacy as critical to our mission. If you don't trust us, you can go look at the code yourself! And to any developers interested in helping to build this project, we are always ready for new team members to make this a reality.</p>
-                <div class="text-center mb-4">
-                    <div onclick="window.location = 'https://github.com/Valour-Software/Valour'" class="v-btn-wrapper  ">
-                        <div class="btn btn-md v-button">
-                            <a href="https://github.com/Valour-Software/Valour">Our Source Code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <img class="platform-image" alt="Open Source Contributions" src="media/screencaps/opensource-3.webp"/>
-            </div>
-        </div>
-        <div class="content-spacer"></div>
-        <div class="content-spacer"></div>
-    </div>
-</div>
+﻿@{
+    ViewData["Title"] = "Valour: Community First Platform";
+    ViewData["main-class"] = "homepage-content";
+}
 
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 hero-content" data-aos="fade-up">
+                <h1 class="title-gradient">Community first.</h1>
+                <p class="hero-subtitle">Join the movement for a more flexible, transparent, and open platform made by communities for communities.</p>
+                <div class="hero-cta">
+                    <a href="https://app.valour.gg" class="btn btn-gradient btn-lg">
+                        Open the App <i class="bi bi-arrow-right"></i>
+                    </a>
+                    <a href="#features" class="btn btn-outline btn-lg">
+                        Explore Features
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 hero-image" data-aos="fade-up" data-aos-delay="200">
+                <div class="image-card sm-rounded-image">
+                    <img src="media/images/platform-md.webp" alt="The Valour platform" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <a href="#features">
+            <span>Scroll to discover</span>
+            <i class="bi bi-chevron-down"></i>
+        </a>
+    </div>
+</section>
+
+<section id="features" class="features-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">PLATFORM</span>
+            <h2 class="title-gradient">Powerful Features</h2>
+            <p class="section-description">Take advantage of advanced features made capable by our unique tech stack.</p>
+        </div>
+
+        <div class="row features-grid">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-window-stack"></i>
+                    </div>
+                    <h3>Multi-window Chat</h3>
+                    <p>Chat in multiple channels at once, even across communities with our in-app window management system.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-coin"></i>
+                    </div>
+                    <h3>Economy System</h3>
+                    <p>Reward your community members and create engaging experiences with our integrated economy system.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h3>Item System</h3>
+                    <p>Show off your accomplishments and be immersed like never before with our customizable item system.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="platform-preview" data-aos="fade-up">
+            <img src="media/images/platform-lg.webp" alt="The Valour platform" class="img-fluid rounded-image">
+        </div>
+    </div>
+</section>
+
+<section class="performance-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 performance-content" data-aos="fade-right">
+                <div class="section-header">
+                    <span class="section-subtitle">TECHNOLOGY</span>
+                    <h2 class="title-gradient-reverse">Next-gen Performance</h2>
+                    <p class="section-description">Experience blazing fast speeds with our optimized tech stack.</p>
+                </div>
+                <div class="performance-features">
+                    <div class="performance-feature">
+                        <div class="feature-check"><i class="bi bi-check-circle-fill"></i></div>
+                        <div>
+                            <h4>Built on Blazor & WebAssembly</h4>
+                            <p>While other apps sacrifice your computer's resources with Electron, we use cutting-edge web technologies for superior speed.</p>
+                        </div>
+                    </div>
+                    <div class="performance-feature">
+                        <div class="feature-check"><i class="bi bi-check-circle-fill"></i></div>
+                        <div>
+                            <h4>Node-based Backend</h4>
+                            <p>Our custom node-based backend system allows large communities to get the performance they need - without disabling core features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 performance-image" data-aos="fade-left">
+                <div class="image-card floating">
+                    <img src="media/screencaps/performance.webp" alt="Browser performance" class="img-fluid rounded-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="opensource-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 opensource-image" data-aos="fade-right">
+                <div class="image-card">
+                    <img src="media/screencaps/opensource-3.webp" alt="Open Source Contributions" class="img-fluid rounded-image">
+                    <div class="card-badge">
+                        <i class="bi bi-github"></i> Open Source
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 opensource-content" data-aos="fade-left" style="padding-left: 50px">
+                <div class="section-header">
+                    <span class="section-subtitle">TRANSPARENCY</span>
+                    <h2 class="title-gradient-blue">Open Source, Privacy Focused</h2>
+                    <p class="section-description">We're an open book. Built by volunteers with no corporate funding.</p>
+                </div>
+                <div class="opensource-values">
+                    <div class="value-item">
+                        <i class="bi bi-shield-check"></i>
+                        <div>
+                            <h4>Privacy First</h4>
+                            <p>Valour will never sell your data, and holds your privacy as critical to our mission.</p>
+                        </div>
+                    </div>
+                    <div class="value-item">
+                        <i class="bi bi-eye"></i>
+                        <div>
+                            <h4>Fully Transparent</h4>
+                            <p>If you don't trust us, you can go look at the code yourself!</p>
+                        </div>
+                    </div>
+                    <div class="value-item">
+                        <i class="bi bi-people"></i>
+                        <div>
+                            <h4>Community Driven</h4>
+                            <p>We are always ready for new team members to make this a reality.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Valour-Software/Valour" class="btn btn-gradient mt-4">
+                    Our Source Code <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-card" data-aos="zoom-in">
+            <h2 class="title-gradient">Ready to join our community?</h2>
+            <p>Experience a more flexible, transparent, and open platform today.</p>
+            <div class="cta-buttons">
+                <a href="https://app.valour.gg" class="btn btn-gradient btn-lg">
+                    Open the App <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="https://github.com/Valour-Software/Valour" class="btn btn-outline btn-lg">
+                    <i class="bi bi-github"></i> Contribute
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
