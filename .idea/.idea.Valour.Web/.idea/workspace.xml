@@ -9,13 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce9c2bb-df5b-47f2-9774-aca12a2382a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valour.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Valour.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/web3.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/web3.cshtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +149,8 @@
       <workItem from="1734040303482" duration="3655000" />
       <workItem from="1734127286038" duration="2082000" />
       <workItem from="1743519351004" duration="4152000" />
-      <workItem from="1751139704362" duration="46000" />
+      <workItem from="1751139704362" duration="84000" />
+      <workItem from="1751141908043" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Launch!">
       <option name="closed" value="true" />
