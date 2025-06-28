@@ -9,8 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce9c2bb-df5b-47f2-9774-aca12a2382a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Valour.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/web3.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/web3.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valour.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Valour.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/web3.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/web3.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +154,7 @@
       <workItem from="1734040303482" duration="3655000" />
       <workItem from="1734127286038" duration="2082000" />
       <workItem from="1743519351004" duration="4152000" />
+      <workItem from="1751139704362" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Launch!">
       <option name="closed" value="true" />
@@ -188,5 +194,23 @@
     <MESSAGE value="Fix" />
     <MESSAGE value="Add tokenomics" />
     <option name="LAST_COMMIT_MESSAGE" value="Add tokenomics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
