@@ -46,7 +46,7 @@
     });
     
     function DoCountCheck() {
-        fetch('https://app.valour.gg/api/users/count')
+        fetch('https://api.valour.gg/api/users/count')
             .then(response => response.json())
             .then(OnGetCount);
     }
@@ -81,7 +81,7 @@
             lastCount = newCount;
             
             // Get actual new users
-            fetch('https://app.valour.gg/api/users/new/' + diff)
+            fetch('https://api.valour.gg/api/users/new/' + diff)
                 .then(response => response.json())
                 .then(ShowNewNames);
         }, 2000);
