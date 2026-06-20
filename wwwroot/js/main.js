@@ -43,6 +43,13 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(element);
     });
 
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.querySelectorAll('video[autoplay]').forEach(video => {
+            video.removeAttribute('autoplay');
+            video.pause();
+        });
+    }
+
     // Parallax effect for hero section
     window.addEventListener('scroll', function() {
         const scrollPosition = window.scrollY;

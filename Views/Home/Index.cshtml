@@ -5,31 +5,60 @@
 
 <section class="hero-section">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 hero-content" data-aos="fade-up">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10 hero-content text-center" data-aos="fade-up">
                 <h1 class="title-gradient">Community first.</h1>
                 <p class="hero-subtitle">Join the movement for a more flexible, transparent, and open platform made by communities for communities.</p>
-                <div class="hero-cta">
-                    <a href="https://app.valour.gg" class="btn btn-gradient btn-lg">
-                        Open the App <i class="bi bi-arrow-right"></i>
-                    </a>
-                    <a href="#features" class="btn btn-outline btn-lg">
-                        Explore Features
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6 hero-image" data-aos="fade-up" data-aos-delay="200">
-                <div class="image-card sm-rounded-image">
-                    <img src="media/images/platform-md.webp" alt="The Valour platform" class="img-fluid">
+                <div class="hero-download-panel" data-download-picker>
+                    <p class="hero-platform-note" data-platform-note>Recommended for your device</p>
+                    <div class="hero-actions">
+                        <a href="https://github.com/Valour-Software/Valour/releases/latest/download/ValourLauncher.exe"
+                           class="btn btn-gradient btn-hero download-option"
+                           data-download="windows"
+                           data-platform-option="windows">
+                            <i class="bi bi-windows"></i> Download for Windows
+                        </a>
+                        <a href="https://github.com/Valour-Software/Valour/releases/latest/download/gg.valour.app-Signed.apk"
+                           class="btn btn-outline btn-hero download-option"
+                           data-download="android"
+                           data-platform-option="android">
+                            <i class="bi bi-android2"></i> Download for Android
+                        </a>
+                        <a href="https://app.valour.gg"
+                           class="btn btn-outline btn-hero download-option"
+                           data-platform-option="web">
+                            Open on Web <i class="bi bi-arrow-right"></i>
+                        </a>
+                        <button type="button" class="btn btn-ghost btn-hero view-all-downloads" data-show-downloads>
+                            View all downloads
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="scroll-indicator">
-        <a href="#features">
-            <span>Scroll to discover</span>
-            <i class="bi bi-chevron-down"></i>
-        </a>
+        <div class="row justify-content-center">
+            <div class="col-xl-10 hero-image" data-aos="fade-up" data-aos-delay="200">
+                <div class="hero-reel-shell">
+                    <div class="hero-reel-glow"></div>
+                    <div class="image-card sm-rounded-image hero-preview-card hero-reel-card">
+                        <video class="hero-reel"
+                               autoplay
+                               muted
+                               loop
+                               playsinline
+                               preload="metadata"
+                               poster="media/images/platform-md.webp"
+                               aria-label="Preview of the Valour platform">
+                            <source src="media/videos/platform-reel.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="hero-reel-badge">
+                        <i class="bi bi-play-circle-fill"></i>
+                        Platform preview
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -160,6 +189,46 @@
     </div>
 </section>
 
+<section id="download" class="download-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">DOWNLOAD</span>
+            <h2 class="title-gradient">Get the Valour App</h2>
+            <p class="section-description">Download the latest release straight from GitHub. Prefer the browser? <a href="https://app.valour.gg">Open the web app</a>.</p>
+        </div>
+
+        <div class="row download-grid justify-content-center">
+            <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="download-card">
+                    <div class="download-icon"><i class="bi bi-windows"></i></div>
+                    <h3>Windows</h3>
+                    <p>The Valour desktop launcher for Windows.</p>
+                    <a href="https://github.com/Valour-Software/Valour/releases/latest/download/ValourLauncher.exe"
+                       class="btn btn-gradient btn-lg" data-download="windows">
+                        <i class="bi bi-download"></i> Download for Windows
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5" data-aos="fade-up" data-aos-delay="200">
+                <div class="download-card">
+                    <div class="download-icon"><i class="bi bi-android2"></i></div>
+                    <h3>Android</h3>
+                    <p>The Valour app as a signed Android APK.</p>
+                    <a href="https://github.com/Valour-Software/Valour/releases/latest/download/gg.valour.app-Signed.apk"
+                       class="btn btn-outline btn-lg" data-download="android">
+                        <i class="bi bi-download"></i> Download for Android
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <p class="download-note text-center">
+            Looking for older versions? Browse all
+            <a href="https://github.com/Valour-Software/Valour/releases" target="_blank">GitHub releases</a>.
+        </p>
+    </div>
+</section>
+
 <section class="cta-section">
     <div class="container">
         <div class="cta-card" data-aos="zoom-in">
@@ -167,7 +236,7 @@
             <p>Experience a more flexible, transparent, and open platform today.</p>
             <div class="cta-buttons">
                 <a href="https://app.valour.gg" class="btn btn-gradient btn-lg">
-                    Open the App <i class="bi bi-arrow-right"></i>
+                    Open on Web <i class="bi bi-arrow-right"></i>
                 </a>
                 <a href="https://github.com/Valour-Software/Valour" class="btn btn-outline btn-lg">
                     <i class="bi bi-github"></i> Contribute

@@ -86,6 +86,9 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" asp-fragment="download">Download</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="https://raw.githubusercontent.com/Vooper-Media-LLC/Valour/main/PRIVACY">Privacy</a>
                         </li>
                         <li class="nav-item">
@@ -95,7 +98,7 @@
                     
                     <div class="nav-actions">
                         <a href="https://app.valour.gg" class="btn btn-gradient btn-sm">
-                            Open App <i class="bi bi-arrow-right"></i>
+                            Open on Web <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -122,9 +125,10 @@
                 <div class="col-md-2 mb-4 mb-md-0">
                     <h5>Platform</h5>
                     <ul class="footer-links">
-                        <li><a href="@this.Context.Request.Scheme://app.@this.Context.Request.Host.ToUriComponent()">Open App</a></li>
+                        <li><a href="@this.Context.Request.Scheme://app.@this.Context.Request.Host.ToUriComponent()">Open on Web</a></li>
+                        <li><a href="https://github.com/Valour-Software/Valour/releases/latest/download/ValourLauncher.exe" data-download="windows">Download for Windows</a></li>
+                        <li><a href="https://github.com/Valour-Software/Valour/releases/latest/download/gg.valour.app-Signed.apk" data-download="android">Download for Android</a></li>
                         <li><a href="#features">Features</a></li>
-                        <li><a href="#opensource-section#">Security</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 mb-4 mb-md-0">
@@ -161,6 +165,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/download.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
